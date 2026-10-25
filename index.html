@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<meta name="theme-color" content="#10243e" />
+<meta name="description" content="NextShift helps everyday workers turn job experience into practical AI skills." />
+<title>NextShift | Practical AI skills for real work</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header><a class="brand" href="#home">Next<span>Shift</span></a><button id="menuBtn" aria-label="Open menu">☰</button><nav id="nav"><a href="#learn">Learn</a><a href="#practice">Practice</a><a href="#plan">7-Day Plan</a></nav></header>
+<main>
+<section id="home" class="hero"><div class="eyebrow">AI skills without the tech jargon</div><h1>Your experience still matters.<br><span>Learn to use AI with it.</span></h1><p>NextShift teaches everyday workers practical AI skills using real workplace situations—not coding classes.</p><div class="actions"><a class="primary" href="#plan">Start my free 7-day plan</a><a class="secondary" href="#practice">Try AI Practice</a></div><div class="trust">No coding • Phone friendly • Built for real jobs</div></section>
+<section id="learn"><div class="section-head"><small>LEARN</small><h2>Start simple. Build useful skills.</h2><p>Finish a short lesson, answer the quiz correctly, then move forward.</p></div><div id="lessonGrid" class="cards"></div></section>
+<section id="practice" class="practice"><div><small>PRACTICE</small><h2>Turn a real work task into a better AI request.</h2><p>Tell NextShift what you need. It will build a strong prompt and give you a useful draft answer you can edit.</p></div><form id="practiceForm"><label>Your job or role<input id="role" placeholder="Example: outside sales, office manager, mechanic" required></label><label>What do you need help with?<textarea id="task" rows="4" placeholder="Example: Write a polite follow-up to a customer who hasn't answered my quote" required></textarea></label><button class="primary" type="submit">Build my answer</button></form><div id="practiceResult" class="result" hidden></div></section>
+<section id="plan"><div class="section-head"><small>FREE PLAN</small><h2>7 days to become more useful with AI.</h2><p>Ten minutes a day. Your progress stays on this device.</p></div><div id="planGrid" class="plan-grid"></div></section>
+<section class="why"><h2>AI shouldn't leave experienced workers behind.</h2><p>You already know how work gets done. NextShift helps you add AI to what you know instead of starting over.</p><a class="primary" href="#learn">Start learning</a></section>
+</main>
+<footer><strong>NextShift</strong><span>Practical AI skills for everyday workers.</span></footer>
+<script src="app.js"></script>
+</body>
+</html>
